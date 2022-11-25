@@ -120,26 +120,29 @@ aside {
 
 aside {
   height: 420px;
-  width: 300px;
+  width: 500px;
   display: flex;
   font-size: 12px;
-}
-
-.aside-ul {
-  padding-top: 50px;
-  margin-left: -75px;
-  width: 250px;
-}
-
-.aside-li {
-  padding-right: 20px;
-  line-height: 2;
-  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aside-heading {
   padding-bottom: 10px;
   padding-top: 25px;
+}
+
+.aside-text {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.aside-p {
+  font-size: 12px;
+  text-align: left;
+  color: hsl(36, 100%, 99%);
 }
 
 .aside-heading-link:hover,
@@ -150,8 +153,15 @@ span {
 hr,
 .bottom-img-num {
   margin-top: 20px;
-  color: hsl(233, 8%, 79%);
   margin-right: 15px;
+}
+
+hr {
+  margin-left: 15px;
+  width: 87%;
+  border: 0;
+  height: 1px;
+  background-color: hsl(233, 8%, 79%);
 }
 
 span {
@@ -159,8 +169,8 @@ span {
   font-size: 30px;
   font-weight: 800px;
   letter-spacing: 1px;
-  margin-top: 25px;
-  padding-left: 25px;
+  margin-right: 150px;
+  margin-top: 0px;
 }
 
 .middle-container {
@@ -194,6 +204,7 @@ span {
 }
 
 .bottom-img-num {
+  color: hsl(233, 8%, 79%);
   font-size: 22px;
   margin-bottom: 25px;
 }
@@ -288,7 +299,33 @@ span {
   aside {
     margin: 700px 0 0 25px;
     position: absolute;
-    height: 450px;
+    height: 410px;
+    width: 315px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-right: 195px;
+  }
+
+  .aside-text {
+    word-spacing: 2px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .aside-p-first {
+    padding-right: 15px;
+  }
+
+  hr {
+    margin: 25px 15px 0 25px;
   }
 
   .bottom-container {
