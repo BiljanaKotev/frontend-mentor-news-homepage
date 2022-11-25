@@ -94,7 +94,7 @@ p {
   margin-top: 50px;
 }
 
-button {
+.button-link {
   padding: 10px 30px;
   font-size: 15px;
   letter-spacing: 3px;
@@ -102,18 +102,16 @@ button {
   border: none;
 }
 
-button,
-button:hover,
-.button-link,
-.button-link:hover,
 aside,
 .aside-li,
 .aside-heading,
-.aside-heading-link {
+.aside-heading-link,
+.button-link,
+.button-link:hover {
   color: hsl(36, 100%, 99%);
 }
 
-button:hover,
+.button-link:hover,
 aside {
   background-color: hsl(240, 100%, 5%);
 }
@@ -190,7 +188,7 @@ span {
   gap: 50px;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 100px;
-  width: 940px;
+  width: 930px;
 }
 
 .bottom-img-container {
@@ -206,7 +204,7 @@ span {
 .bottom-img-num {
   color: hsl(233, 8%, 79%);
   font-size: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .bottom-img-heading {
