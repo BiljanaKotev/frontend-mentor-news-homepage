@@ -10,11 +10,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | News homepage</title>
   </head>
@@ -32,6 +32,20 @@
             fill="#00001A"
           />
         </svg>
+        <!-- Hamburger menu to toggle the nav links -->
+        <div class="hamburger-menu">
+          <svg
+            class="mobile-menu"
+            width="40"
+            height="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+        </div>
         <nav id="nav-links">
           <ul>
             <li class="nav-li"><a href="#">Home</a></li>
@@ -41,23 +55,6 @@
             <li class="nav-li"><a href="#">Categories</a></li>
           </ul>
         </nav>
-        <!-- Hamburger menu to toggle the nav links -->
-        <div class="hamburger-menu">
-          <svg
-            class="mobile-menu"
-            width="40"
-            height="17"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            --
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <g fill="#00001A" fill-rule="evenodd">
-                <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
-                <path d="M0 0h40v3H0z" />
-              </g>
-            </a>
-          </svg>
-        </div>
 
         <div class="close-menu">
           <svg
@@ -210,15 +207,6 @@
       </div>
     </footer>
 
-    <script>
-      function myFunction() {
-        let navLinks = document.getElementById("nav-links");
-        if (navLinks.style.display === "block") {
-          navLinks.style.display = "none";
-        } else {
-          navLinks.style.display = "block";
-        }
-      }
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
