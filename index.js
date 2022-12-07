@@ -1,13 +1,12 @@
-const mobileMenu = document.querySelector(".hamburger-menu");
-const navLinks = document.querySelector("#nav-links");
-
-mobileMenu.addEventListener("click", dropDown);
 function dropDown() {
-  //   navLinks.style.display = "block";
-
-  if (navLinks.style.display === "block") {
-    navLinks.style.display = "none";
-  } else {
-    navLinks.style.display = "block";
-  }
+  const closeMenu = document.querySelector(".close-menu");
+  const navLinks = document.querySelector("#nav-links");
+  const ulFlex = document.querySelector(".ul-flex");
+  mobileMenu.classList.toggle("active");
+  closeMenu.classList.toggle("active");
+  navLinks.classList.toggle("active");
+  ulFlex.classList.toggle("active");
 }
+
+const mobileMenu = document.querySelector(".hamburger-menu");
+mobileMenu.addEventListener("click", dropDown);
