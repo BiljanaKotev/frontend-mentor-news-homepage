@@ -23,3 +23,4 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - Website - [Biljana](https://www.github/biljanakotev)
 - Frontend Mentor - [@BiljanaKotev](https://www.frontendmentor.io/profile/biljanakotev)
 - Twitter - [@BiljanaCodes](https://twitter.com/BiljanaCodes)
+- LinkedIn - [@BiljanaKotev](https://www.linkedin.com/in/biljana-kotevska/)
