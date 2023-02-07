@@ -228,11 +228,6 @@ hr {
   color: hsl(228, 45%, 44%);
 }
 
-.ul-menu {
-  display: flex;
-  gap: 15px;
-}
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 575px) {
@@ -277,11 +272,6 @@ hr {
     display: none;
   }
 
-  /* Hamburger Menu SVG */
-  .active.mobile-menu {
-    display: none;
-  }
-
   .close-menu {
     border: none;
     background: transparent;
@@ -296,12 +286,12 @@ hr {
   }
 
   /* Toggle active state */
-  .active.close-menu {
+  .active.mobile-menu-close {
     display: block;
   }
 
   .ul-menu {
-   background: #ffffff;
+    background: #ffffff;
     display: none;
     top: 0;
     position: fixed;
