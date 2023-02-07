@@ -265,8 +265,8 @@ hr {
     border: none;
     display: block;
     left: 280px;
-    margin-right: 0px;
-    position: absolute;
+    margin: auto;
+    padding-right: 15px;
     right: 0px;
     top: 10px;
     z-index: 1000;
@@ -287,6 +287,8 @@ hr {
     background: transparent;
     display: inline-block;
     margin-right: 16px;
+    position: relative;
+    z-index: 1000;
   }
 
   .mobile-menu-close {
@@ -299,15 +301,15 @@ hr {
   }
 
   .ul-menu {
-    background: #ffffff;
+   background: #ffffff;
     display: none;
-    height: 100%;
-    left: 185px;
-    margin-top: 30px;
+    top: 0;
     position: fixed;
-    top: -50px;
     width: 50%;
     z-index: 99;
+    top: 0;
+    bottom: 0;
+    right: 0;
   }
 
   /* Toggle active state */
